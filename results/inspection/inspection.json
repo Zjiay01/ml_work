@@ -1,0 +1,200 @@
+[
+  {
+    "file": "ADNI(1).mat",
+    "variables": {
+      "AD": {
+        "shape": [
+          51,
+          186
+        ],
+        "dtype": "float64",
+        "n": 51,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 51
+      },
+      "MCI": {
+        "shape": [
+          99,
+          186
+        ],
+        "dtype": "float64",
+        "n": 99,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 99
+      },
+      "MCIn": {
+        "shape": [
+          56,
+          186
+        ],
+        "dtype": "float64",
+        "n": 56,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 56
+      },
+      "MCIp": {
+        "shape": [
+          43,
+          186
+        ],
+        "dtype": "float64",
+        "n": 43,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 43
+      },
+      "NC": {
+        "shape": [
+          52,
+          186
+        ],
+        "dtype": "float64",
+        "n": 52,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 52
+      }
+    }
+  },
+  {
+    "file": "ADNI_90_120_fMRI(1).mat",
+    "variables": {
+      "AD": {
+        "shape": [
+          59,
+          90,
+          120
+        ],
+        "dtype": "float64",
+        "n": 59,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 59
+      },
+      "EMCI": {
+        "shape": [
+          56,
+          90,
+          120
+        ],
+        "dtype": "float64",
+        "n": 56,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 56
+      },
+      "LMCI": {
+        "shape": [
+          43,
+          90,
+          120
+        ],
+        "dtype": "float64",
+        "n": 43,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 43
+      },
+      "NC": {
+        "shape": [
+          48,
+          90,
+          120
+        ],
+        "dtype": "float64",
+        "n": 48,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 48
+      }
+    }
+  },
+  {
+    "file": "FTD_90_200_fMRI(1).mat",
+    "variables": {
+      "FTD": {
+        "shape": [
+          95,
+          90,
+          200
+        ],
+        "dtype": "float64",
+        "n": 95,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 95
+      },
+      "NC": {
+        "shape": [
+          86,
+          90,
+          200
+        ],
+        "dtype": "float64",
+        "n": 86,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 86
+      }
+    }
+  },
+  {
+    "file": "OCD_90_200_fMRI(1).mat",
+    "variables": {
+      "NC": {
+        "shape": [
+          20,
+          90,
+          200
+        ],
+        "dtype": "float64",
+        "n": 20,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 20
+      },
+      "OCD": {
+        "shape": [
+          62,
+          90,
+          200
+        ],
+        "dtype": "float64",
+        "n": 62,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 61
+      }
+    }
+  },
+  {
+    "file": "PPMI(1).mat",
+    "variables": {
+      "NC": {
+        "shape": [
+          169,
+          294
+        ],
+        "dtype": "uint16",
+        "n": 169,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 169
+      },
+      "PD": {
+        "shape": [
+          374,
+          294
+        ],
+        "dtype": "uint16",
+        "n": 374,
+        "nan": 0,
+        "inf": 0,
+        "unique_rows": 374
+      }
+    }
+  }
+]

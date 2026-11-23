@@ -1,0 +1,6 @@
+dataset,SVM,MLP,CatBoost,protocol_note
+ADNI,0.6792,0.6754,0.6591,"historical protocols differ; CatBoost used five classes"
+ADNI_fMRI,0.4856,0.5057,0.5410,"historical protocols differ"
+FTD_fMRI,0.7255,0.6492,0.6574,"historical protocols differ"
+OCD_fMRI,0.7160,0.7156,0.7321,"historical duplicate handling differs"
+PPMI,0.5642,0.5331,0.5503,"historical protocols differ"

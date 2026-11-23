@@ -1,0 +1,13 @@
+seed: 42
+outer_folds: 5
+inner_folds: 3
+fMRI_representation: fisher_z_upper_triangle
+fMRI_features: 4005
+ADNI_labels: [AD, MCIn, MCIp, NC]
+OCD_deduplicate_exact_rows: true
+ccsp:
+  n_prompts: 4
+  n_components: 32
+  epochs: 180
+  learning_rate: 0.03
+  anchor: 0.05
