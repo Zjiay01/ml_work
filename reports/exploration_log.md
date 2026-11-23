@@ -18,3 +18,10 @@
 | Class-Conditional Soft Prompt (CCSP) | RUN | Fold-local PCA is frozen and class-specific prompt vectors are optimized by balanced CE plus prototype anchor regularization |
 
 CCSP is a genuine soft-prompt/prototype-tuning method, but it does not claim external pretraining. Its paper positioning must be confirmed with the instructor/TA before submission.
+
+## Second-stage search
+
+- Logistic regression on fold-local ROI summary plus connectivity representations improved ADNI-fMRI to 0.5532 with fixed C and improved FTD-fMRI to 0.7398 in exploratory fixed-parameter runs.
+- Inner-selected logistic regression reached 0.7859 on OCD-fMRI and 0.7302 on FTD-fMRI. These are candidate-search results and are not the primary confirmatory table.
+- Adaptive CCSP selected among fold-local raw and summary-plus-connectivity views. It reached 0.5460 on ADNI-fMRI, 0.7174 on FTD-fMRI, 0.7484 on OCD-fMRI, and 0.5788 on PPMI. Representation selection was unstable on ADNI-fMRI when the candidate family was too broad.
+- Focused RBF-SVM search was started but terminated after excessive CPU time and is marked NOT RUN in the search log. No result from that run is used.
