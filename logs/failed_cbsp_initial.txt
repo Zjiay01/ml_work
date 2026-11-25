@@ -1,0 +1,3 @@
+FAILED initial CBSP runtime check
+
+The first implementation imported torch and stopped with ModuleNotFoundError: No module named: torch. No CBSP score was generated. The project then switched to the NumPy CCSP implementation with the same class-balanced prompt objective. TabPFN/CBSP remains NOT RUN because a compatible TabPFN/PyTorch runtime was not available.
