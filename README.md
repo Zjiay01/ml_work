@@ -20,3 +20,7 @@ python experiments/summarize.py --results-dir results
 ```
 
 The scripts write out-of-fold probabilities, fold metrics, aggregate metrics, method exploration logs, and a report draft. Dataset files are included locally for reproducibility of this course project.
+
+## Automatic research log
+
+See `reports/AUTO_RESEARCH_LOG.md` for versioned candidate methods, failure reasons, and the current 20% improvement status.
