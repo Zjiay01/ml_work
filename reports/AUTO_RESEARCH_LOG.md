@@ -15,3 +15,6 @@ The goal is a 20% relative AUC increase over the strongest unified baseline on e
 ## Current decision
 
 The best simple candidate is inner-selected regularized logistic regression with a single fold-local feature representation. It is simpler and stronger than the previous multi-stage prompt pipeline on fMRI cohorts. It still falls short of 20% on every dataset, so it should remain an exploratory candidate until a confirmatory rerun is pre-registered.
+| V7 | Elastic-Net logistic | Single PCA plus sparse/ dense mixed regularization | ADNI 0.7271, ADNI-fMRI 0.5009, FTD 0.7146, OCD 0.7324, PPMI 0.5641 | Rejected |
+
+V7 improved ADNI slightly but degraded the fMRI and PPMI cohorts, so it is not retained.
